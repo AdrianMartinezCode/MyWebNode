@@ -1,0 +1,1 @@
+tsc && mocha dist/**/*.spec.js

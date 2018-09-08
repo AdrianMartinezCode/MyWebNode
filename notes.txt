@@ -1,0 +1,76 @@
+My personal notes!
+
+Steps for prepare the project for develop in your workspace:
+
+If you haven't global packages:
+
+
+Specific packages (they must be in the local folder node_modules of the project):
+$ npm install \n
+    gulp@3.9.1 \n
+    gulp-typescript@3.1.1 --save-dev \n
+    eslint \n
+    typescript \n
+    express \n
+    @types/express \n
+    @types/mocha \n
+    body-parser@1.15.2 \n
+    morgan \n
+    @types/body-parser@0.0.33  \n
+    @types/morgan \n
+    ts-node@3.3.0 --save-dev \n
+    chai@3.5.0 --save-dev \n
+    chai-http@3.0.0 --save-dev \n
+    @types/chai@3.4.34 --save-dev \n
+    @types/chai-http@0.0.29 --save-dev \n
+    twitter
+    @types/twitter
+    twitter-d --save-dev <- not necessary
+    fs-extra
+    @types/fs-extra
+    body-parser
+    @types/cookie-parser
+    errorhandler
+    method-override
+    @types/errorhandler
+    @types/method-override
+
+NOTE:   if you put [--save-dev] at final of every command, the dependency if only for
+        the category dev in the npm.
+
+And use docker:
+
+$ sudo docker build -t adrianmartinezcodes/my-web-node .
+
+
+
+Tutorial RESTful API with Node and Typescript:
+https://mherman.org/blog/developing-a-restful-api-with-node-and-typescript/
+
+Dockerizing a Node.js:
+https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+
+One of the bests tutorials of node and express:
+https://brianflove.com/2016/11/08/typescript-2-express-node/
+https://brianflove.com/2016/11/11/typescript-2-express-mongoose-mocha-chai/
+
+
+
+We can use gulp to execute one of the instructions denominated "tasks" in the gulpfile.js
+
+$ gulp scripts
+
+or execute all the tasks in the same file:
+
+$ gulp
+
+
+
+Helps:
+
+Twitter api with typescript: https://github.com/jmanuelc87/twitter-api-ts
+
+
+For fast build and start:
+npm run-script faststart
+
