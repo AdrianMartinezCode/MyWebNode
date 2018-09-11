@@ -34,6 +34,8 @@ $ npm install \n
     method-override
     @types/errorhandler
     @types/method-override
+    angular
+    @types/angular
 
 NOTE:   if you put [--save-dev] at final of every command, the dependency if only for
         the category dev in the npm.
